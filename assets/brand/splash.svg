@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1242" height="1242" viewBox="0 0 1242 1242">
+  <rect width="1242" height="1242" fill="#0d0520"/>
+  <defs><radialGradient id="halo" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#5ef2c8" stop-opacity="0.45"/><stop offset="1" stop-color="#5ef2c8" stop-opacity="0"/></radialGradient></defs>
+  <circle cx="621" cy="521.64" r="380" fill="url(#halo)"/>
+  <g transform="translate(341 241.64) scale(5.6)">
+  <defs>
+    <linearGradient id="glipBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a6ffe6"/><stop offset="0.55" stop-color="#4fe8c4"/><stop offset="1" stop-color="#1fb39a"/>
+    </linearGradient>
+  </defs>
+  <path d="M43 27 Q39 15 31 11" stroke="#2bc9a9" stroke-width="3.4" stroke-linecap="round" fill="none"/>
+  <path d="M57 27 Q61 15 69 11" stroke="#2bc9a9" stroke-width="3.4" stroke-linecap="round" fill="none"/>
+  <circle cx="31" cy="11" r="7" fill="#ff7ad9" opacity="0.3"/><circle cx="69" cy="11" r="7" fill="#ff7ad9" opacity="0.3"/>
+  <circle cx="31" cy="11" r="4.2" fill="#ff7ad9"/><circle cx="69" cy="11" r="4.2" fill="#ff7ad9"/>
+  <path d="M20 82 C12 82 10 72 16 66 C14 42 30 24 50 24 C70 24 86 42 84 66 C90 72 88 82 80 82 Q74 88 67 82 Q59 90 51 82 Q43 89 35 82 Q27 88 20 82 Z"
+        fill="url(#glipBody)" stroke="#18a089" stroke-width="1.5"/>
+  <g opacity="0.6"><ellipse cx="34" cy="40" rx="9" ry="4.5" fill="#fff" transform="rotate(-25 34 40)"/><circle cx="46" cy="34" r="2.2" fill="#fff"/></g>
+  <ellipse cx="30" cy="63" rx="5" ry="3" fill="#ff7ad9" opacity="0.55"/><ellipse cx="70" cy="63" rx="5" ry="3" fill="#ff7ad9" opacity="0.55"/>
+  <path d="M34 55 Q40 46 46 55" stroke="#1d0b3a" stroke-width="3.2" stroke-linecap="round" fill="none"/>
+  <path d="M54 55 Q60 46 66 55" stroke="#1d0b3a" stroke-width="3.2" stroke-linecap="round" fill="none"/>
+  <path d="M41 64 Q50 77 59 64 Z" fill="#1d0b3a" stroke="#1d0b3a" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M45.5 69.5 Q50 73.5 54.5 69.5 Q50 67.5 45.5 69.5 Z" fill="#ff7aa8"/></g>
+  <text x="621" y="1068.12" text-anchor="middle" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-weight="bold" font-size="120" fill="#ffffff">Cosmic Jelly</text>
+</svg>

@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "Cosmic Jelly",
+    "slug": "cosmic-jelly",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.cosmicjelly.game"
+    },
+    "android": {
+      "package": "com.cosmicjelly.game",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#0d0520"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "name": "Cosmic Jelly",
+      "shortName": "Cosmic Jelly",
+      "description": "Уютная головоломка 2048 в космосе с маскотом Глипом.",
+      "backgroundColor": "#0d0520",
+      "themeColor": "#0d0520",
+      "output": "single"
+    },
+    "backgroundColor": "#0d0520",
+    "plugins": [
+      "expo-audio",
+      "expo-font",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 260,
+          "resizeMode": "contain",
+          "backgroundColor": "#0d0520"
+        }
+      ],
+      "expo-asset"
+    ],
+    "description": "Уютная головоломка 2048 в космосе с маскотом Глипом."
+  }
+}
