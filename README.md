@@ -4,8 +4,11 @@
 
 **[English](#english) · [Русский](#русский)**
 
-<!-- Добавьте скриншоты с iPhone в папку docs/screenshots/ и раскомментируйте строку ниже -->
-<!-- <p align="center"><img src="docs/screenshots/game.png" width="260"> <img src="docs/screenshots/pause.png" width="260"></p> -->
+<p align="center">
+  <img src="docs/screenshots/menu.png" width="250" alt="Menu">
+  <img src="docs/screenshots/game.png" width="250" alt="Game">
+  <img src="docs/screenshots/achievements.png" width="250" alt="Achievements">
+</p>
 
 ---
 

@@ -41,7 +41,8 @@
     "web": "expo start --web",
     "test": "jest",
     "typecheck": "tsc --noEmit",
-    "lint": "expo lint"
+    "lint": "expo lint",
+    "build:itch": "node scripts/build-itch.mjs"
   },
   "private": true,
   "jest": {

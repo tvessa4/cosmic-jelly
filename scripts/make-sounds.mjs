@@ -94,7 +94,9 @@ for (let step = 0; step < 12; step++) {
 // Победа: арпеджио до-ми-соль-до + блёстки.
 {
   const s = buf(1.2);
-  [523, 659, 784, 1047].forEach((f, i) => bubble(s, Math.round(i * 0.11 * RATE), f, { dur: 0.35, rise: 1.15 }));
+  [523, 659, 784, 1047].forEach((f, i) =>
+    bubble(s, Math.round(i * 0.11 * RATE), f, { dur: 0.35, rise: 1.15 }),
+  );
   [1568, 2093, 1760, 2349].forEach((f, i) =>
     bubble(s, Math.round((0.5 + i * 0.09) * RATE), f, { dur: 0.25, rise: 1.05, amp: 0.35 }),
   );
@@ -147,7 +149,10 @@ for (let step = 0; step < 12; step++) {
     for (let i = 0; i < n; i++) {
       const tt = i / RATE;
       const env = Math.min(1, tt / 0.01) * Math.exp(-tt * 2.2);
-      add(st + i, (Math.sin(2 * Math.PI * f * tt) + 0.3 * Math.sin(2 * Math.PI * f * 2.01 * tt)) * env * 0.05);
+      add(
+        st + i,
+        (Math.sin(2 * Math.PI * f * tt) + 0.3 * Math.sin(2 * Math.PI * f * 2.01 * tt)) * env * 0.05,
+      );
     }
   }
   writeWav('music.wav', s, 0.45);

@@ -13,7 +13,7 @@ mkdirSync(brand, { recursive: true });
 /** Звёзды по фиксированному сиду — картинка всегда одинаковая. */
 function stars(count, w, h, seed = 7) {
   let s = seed;
-  const r = () => ((s = (s * 16807) % 2147483647) / 2147483647);
+  const r = () => (s = (s * 16807) % 2147483647) / 2147483647;
   let out = '';
   for (let i = 0; i < count; i++) {
     const x = (r() * w).toFixed(1);
