@@ -10,7 +10,7 @@
 | Поле | Значение |
 |---|---|
 | Title | Cosmic Jelly |
-| Project URL | `tvessa4.itch.io/cosmic-jelly` |
+| Project URL | `tvessa.itch.io/cosmic-jelly` |
 | Short description or tagline | A cozy 2048 puzzle in space with Glip the jelly alien |
 | Classification | Games |
 | Kind of project | **HTML** |

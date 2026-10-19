@@ -1,6 +1,6 @@
 # Cosmic Jelly 🪐
 
-### 🎮 [Play in the browser / Играть в браузере](https://tvessa4.github.io/cosmic-jelly/)
+### 🎮 [Play in the browser / Играть в браузере](https://tvessa4.github.io/cosmic-jelly/) · [itch.io](https://tvessa.itch.io/cosmic-jelly)
 
 **[English](#english) · [Русский](#русский)**
 
